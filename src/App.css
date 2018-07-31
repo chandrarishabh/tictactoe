@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Bangers|Caveat+Brush|Monoton|Special+Elite|Luckiest+Guy|Neucha');
+
+.grid{
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  user-select: none;
+}
+.box{
+  font-family: 'Bangers', cursive;
+  height:100px;
+  width:100px;
+  background-color: pink;
+  border-style: solid;
+  border-width: 2px;
+  display:flex;
+  justify-content: center;
+  font-size: 500%;
+  background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
+}
+
+.boardPos{
+  display: flex;
+  justify-content: center;
+}
+.headT{
+  font-family: 'Bangers', cursive;
+  font-size: 350%;
+  color: rgb(8, 46, 28);
+  letter-spacing: 4px;
+}
+.scoreCSS{
+  font-family: 'Neucha', cursive;
+  font-size: 140%;
+}
+
+.foot{
+  font-family: 'Caveat Brush', cursive;
+  margin-top: 2px;
+}
+
+.btn{
+  font-family: 'Special Elite', cursive;
+  border-radius: 10px;
+  font-size: 150%;
+}
+.particles{
+  position:fixed;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+}

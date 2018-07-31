@@ -1,0 +1,5 @@
+body {
+  font-family: sans-serif;
+  box-sizing: border-box;
+  background-image: linear-gradient(to left, #48c6ef 0%, #6f86d6 100%);
+}
